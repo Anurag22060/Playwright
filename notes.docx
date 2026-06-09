@@ -1,0 +1,13 @@
+
+
+Important commands for debug and code generation:-
+
+1.  " npx playwright test --debug " opens playwright debugger and can be used  for step by step debugging
+
+2. Most Efficient tool for Automatic code generation by just debugging and running on website:-
+
+    npx playwright codegen https://google.com
+
+    Any testing link which you have to write code for should be written after codegen commands
+
+3.

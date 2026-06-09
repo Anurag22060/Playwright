@@ -10,4 +10,16 @@ Important commands for debug and code generation:-
 
     Any testing link which you have to write code for should be written after codegen commands
 
-3.
+3. In playwright.config.js file you can see below format 
+
+    use: {
+   
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'retain-on-failure', // off , on, , retain-on-failure
+    headless:true,
+    screenshot:'on'
+  },
+
+
+  There you can use "https://playwright.dev/docs/trace-viewer" and upload trace zip file under test-results folder or it can be found on show repots html page which can be uploaded on trace website and can be debug steo by step which help us to find where and how the actual test case failed.
+  
